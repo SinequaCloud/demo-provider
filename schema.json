@@ -1,0 +1,58 @@
+{
+  "name": "secapiprovider",
+  "displayName": "",
+  "description": "",
+  "homepage": "https://pulumi.com",
+  "repository": "https://github.com/pulumi/pulumi-pulumiservice",
+  "keywords": [ "pulumi", "kind/native", "category/infrastructure" ],
+  "license": "Apache-2.0",
+  "publisher": "Sinequa",
+  "provider": {
+    "type": "object",
+    "inputProperties": {}
+  },
+  "resources": {
+    "secapiprovider:index:SecAPI": {
+      "properties": {
+        "groups": {
+          "type": "string"
+        }
+      },
+      "inputProperties": {
+        "env": {
+          "type": "string"
+        },
+        "org": {
+          "type":  "string"
+        }
+      },
+      "requiredInputs": [ "env", "org" ]
+    }
+  },
+  "language": {
+    "csharp": {
+      "namespaces": {
+        "pulumiservice": "PulumiService"
+      },
+      "packageReferences": {
+        "Pulumi": "3.*"
+      }
+    },
+    "go": {
+      "generateResourceContainerTypes": true,
+      "importBasePath": "github.com/pulumi/pulumi-pulumiservice/sdk/go/pulumiservice"
+    },
+    "nodejs": {
+      "packageName": "@pulumi/secapiprovider",
+      "dependencies": {
+        "@pulumi/pulumi": "^3.0.0"
+      }
+    },
+    "python": {
+      "packageName": "pulumi_pulumiservice",
+      "requires": {
+        "pulumi": ">=3.0.0,<4.0.0"
+      }
+    }
+  }
+}
