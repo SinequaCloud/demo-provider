@@ -7,7 +7,6 @@
   "keywords": [ "pulumi", "kind/native", "category/infrastructure" ],
   "license": "Apache-2.0",
   "publisher": "Sinequa",
-  "pluginDownloadUrl" : "github://github.sinequa.com/SinequaCloud/demo-provider",
   "provider": {
     "type": "object",
     "inputProperties": {}

@@ -1,5 +1,4 @@
 {
   "resource": true,
-  "name": "secapiprovider",
-  "server": "github://github.sinequa.com/SinequaCloud/demo-provider"
+  "name": "secapiprovider"
 }

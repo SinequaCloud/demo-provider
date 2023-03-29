@@ -53,7 +53,6 @@ namespace Pulumi.Secapiprovider
         {
             var dst = src ?? new global::Pulumi.InvokeOptions{};
             dst.Version = src?.Version ?? Version;
-            dst.PluginDownloadURL = src?.PluginDownloadURL ?? "github://github.sinequa.com/SinequaCloud/demo-provider";
             return dst;
         }
 

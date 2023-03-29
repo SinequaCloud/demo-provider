@@ -29,7 +29,6 @@ namespace Pulumi.Secapiprovider
             var defaultOptions = new CustomResourceOptions
             {
                 Version = Utilities.Version,
-                PluginDownloadURL = "github://github.sinequa.com/SinequaCloud/demo-provider",
             };
             var merged = CustomResourceOptions.Merge(defaultOptions, options);
             // Override the ID if one was specified for consistency with other language SDKs.
