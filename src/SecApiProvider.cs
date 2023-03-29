@@ -139,7 +139,8 @@ public class SecApiProvider : Provider
             //var orgValue = org.TryGetString(orgValue);
             //var envValue = env.TryGetString(envValue);
 
-            var groups = SecurityProxyClient.APIGet("https://operator.snqa.lan/api/group/org/create/snqd/pooq").GetAwaiter().GetResult();
+            //var groups = SecurityProxyClient.APIGet("https://operator.snqa.lan/api/group/org/create/snqd/pooq").GetAwaiter().GetResult();
+            var groups = "MELLAMORAMIREZ";
 
             var outputs = new Dictionary<string, PropertyValue>();
             outputs.Add(groups, groupsProp);

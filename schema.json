@@ -2,11 +2,12 @@
   "name": "secapiprovider",
   "displayName": "",
   "description": "",
-  "homepage": "https://pulumi.com",
-  "repository": "https://github.com/pulumi/pulumi-pulumiservice",
+  "homepage": "",
+  "repository": "https://github.sinequa.com/SinequaCloud/demo-provider",
   "keywords": [ "pulumi", "kind/native", "category/infrastructure" ],
   "license": "Apache-2.0",
   "publisher": "Sinequa",
+  "pluginDownloadUrl" : "github://github.sinequa.com/SinequaCloud/demo-provider",
   "provider": {
     "type": "object",
     "inputProperties": {}
